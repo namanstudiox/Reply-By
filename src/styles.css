@@ -1,0 +1,89 @@
+/* Base document styles. The reader route is composed with redline.css. */
+
+/* Bundled locally so the reader never calls a third-party font service. */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/manrope-latin.woff2') format('woff2');
+}
+
+:root {
+  --ink: #171917;
+  --page: #ebece6;
+  --paper: #fcfcf8;
+  --signal: #b53a26;
+  --sans: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.55;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin: 0 0 0.6em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Fallback routes outside the reader. */
+
+.page {
+  min-block-size: 100dvh;
+  padding: clamp(1.5rem, 6vw, 4rem);
+  padding-inline: max(clamp(1.5rem, 6vw, 4rem), env(safe-area-inset-left));
+}
+
+.page h1 {
+  margin: 0 0 0.35em;
+  font-size: clamp(1.6rem, 5vw, 2.2rem);
+  letter-spacing: -0.035em;
+}
+
+.page p {
+  max-inline-size: 44ch;
+}

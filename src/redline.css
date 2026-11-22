@@ -1,0 +1,254 @@
+/* Reply-By / REDLINE. Presentation for the existing reader; no data or behavior. */
+.rb-redline {
+  --rb-ink: #171917;
+  --rb-page: #ebece6;
+  --rb-paper: #fcfcf8;
+  --rb-line: #c5c8bf;
+  --rb-muted: #50564e;
+  --rb-signal: #b53a26;
+  --rb-bright: #ff654a;
+  --rb-gutter: clamp(0.875rem, 4vw, 3.75rem);
+  background: var(--rb-page);
+  color: var(--rb-ink);
+  min-block-size: 100vh;
+  min-block-size: 100svh;
+  font: 400 1rem/1.55 Manrope, system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+  padding-block-end: max(var(--rb-gutter), env(safe-area-inset-bottom));
+}
+.rb-redline, .rb-redline *, .rb-redline *::before, .rb-redline *::after { box-sizing: border-box; }
+.rb-redline :where(h1, h2, h3, p, figure) { margin: 0; }
+.rb-redline :where(button, textarea, input) { font: inherit; }
+.rb-redline :where(button, a, textarea, input, summary):focus-visible {
+  outline: 3px solid var(--rb-signal);
+  outline-offset: 3px;
+}
+.rb-redline__wide {
+  inline-size: min(82rem, calc(100% - var(--rb-gutter) - var(--rb-gutter)));
+  margin-inline: auto;
+}
+.rb-redline__mast {
+  color: var(--rb-paper);
+  background: var(--rb-ink);
+  border-block-end: 1px solid #343834;
+  padding-block-start: env(safe-area-inset-top);
+}
+.rb-redline__mast .rb-redline__wide {
+  min-block-size: 4.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  padding-block: 0.5rem;
+}
+.rb-redline__logo { display: block; inline-size: clamp(7.75rem, 15vw, 10rem); block-size: auto; }
+.rb-redline__mast a:focus-visible { outline-color: var(--rb-bright); }
+.rb-redline__kicker, .rb-redline__label {
+  font: 650 0.78rem/1.35 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.rb-redline__mast .rb-redline__kicker { color: #d1d5cb; }
+.rb-redline__main { padding-block-start: clamp(1rem, 5vw, 4.75rem); }
+.rb-redline__entry {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  border: 1px solid var(--rb-ink);
+  background: var(--rb-paper);
+}
+.rb-redline__lead {
+  position: relative;
+  background: var(--rb-ink);
+  color: var(--rb-paper);
+  padding: clamp(1.25rem, 5vw, 4.375rem);
+  min-inline-size: 0;
+}
+.rb-redline__lead .rb-redline__kicker { color: #d1d5cb; }
+.rb-redline__headline {
+  margin-block: 0.65em 0.28em;
+  font: 770 clamp(2.75rem, 6.25vw, 6.5rem)/0.93 Manrope, system-ui, sans-serif;
+  letter-spacing: -0.073em;
+  text-wrap: balance;
+}
+.rb-redline__lead p { max-inline-size: 34ch; color: #d9ddd2; }
+/* This cut echoes the prow of the hyphen in the approved wordmark. It isn't a progress meter. */
+.rb-redline__cut {
+  margin-block-start: clamp(1rem, 3vw, 2.5rem);
+  inline-size: clamp(3rem, 8vw, 7rem);
+  block-size: 0.47rem;
+  background: var(--rb-bright);
+  clip-path: polygon(0 0, 100% 0, 100% 64%, 20% 64%, 0 100%);
+}
+.rb-redline__well {
+  min-inline-size: 0;
+  background: var(--rb-paper);
+  padding: clamp(1.125rem, 4vw, 3.75rem);
+}
+.rb-redline__well h2, .rb-redline__source h2 {
+  font-size: clamp(1.2rem, 2vw, 1.65rem);
+  font-weight: 720;
+  letter-spacing: -0.036em;
+  margin-block-end: 0.75rem;
+}
+.rb-redline__modes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin-block: 1.1rem 0.75rem;
+}
+.rb-redline__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  min-block-size: 3rem;
+  min-inline-size: 2.75rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--rb-ink);
+  border-radius: 0;
+  color: var(--rb-ink);
+  background: var(--rb-paper);
+  text-align: start;
+  text-decoration: none;
+  font-weight: 690;
+  line-height: 1.25;
+  cursor: pointer;
+}
+.rb-redline__modes .rb-redline__button { min-block-size: 3.5rem; }
+.rb-redline__button--primary { color: white; background: var(--rb-signal); border-color: var(--rb-signal); }
+.rb-redline__button[aria-pressed="true"] { box-shadow: inset 0 -3px 0 var(--rb-signal); }
+.rb-redline__button:disabled { color: #535851; background: #e1e4db; border-color: #9a9f95; cursor: not-allowed; }
+@media (hover: hover) {
+  .rb-redline__button:not(:disabled):hover { background: #e8ebe1; }
+  .rb-redline__button--primary:not(:disabled):hover { background: #9f3020; }
+}
+.rb-redline__muted { color: var(--rb-muted); font-size: 0.875rem; }
+.rb-redline__text {
+  display: block;
+  inline-size: 100%;
+  min-block-size: 10rem;
+  border: 1px solid #868e83;
+  border-radius: 0;
+  background: var(--rb-paper);
+  color: var(--rb-ink);
+  padding: 0.8rem;
+  font-size: max(16px, 1rem);
+  line-height: 1.55;
+  resize: vertical;
+}
+.rb-redline__filebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  border-block: 1px solid var(--rb-line);
+  padding: 0.75rem 0;
+  margin-block-end: 1.25rem;
+  overflow-wrap: anywhere;
+}
+.rb-redline__desk {
+  display: grid;
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  gap: clamp(0.875rem, 3vw, 2.5rem);
+  align-items: start;
+}
+.rb-redline__desk > * { min-inline-size: 0; }
+.rb-redline__source {
+  padding: clamp(1rem, 2.6vw, 2rem);
+  border: 1px solid var(--rb-line);
+  background: var(--rb-paper);
+  overflow-wrap: anywhere;
+}
+.rb-redline__reviewed { white-space: pre-wrap; overflow-wrap: anywhere; }
+.rb-redline__original { display: block; max-inline-size: 100%; block-size: auto; margin-inline: auto; }
+.rb-redline__answer {
+  padding: clamp(1rem, 3.3vw, 2.5rem);
+  background: var(--rb-ink);
+  color: var(--rb-paper);
+  overflow-wrap: anywhere;
+}
+.rb-redline__answer .rb-redline__label { color: #d1d5cb; }
+.rb-redline__answer :where(a, button, summary):focus-visible { outline-color: var(--rb-bright); }
+.rb-redline__action {
+  font-size: clamp(1.3rem, 2.5vw, 2.15rem);
+  font-weight: 730;
+  letter-spacing: -0.04em;
+  line-height: 1.16;
+  margin-block: 0.35rem 1.3rem;
+}
+.rb-redline__due {
+  margin-block: 0.85rem;
+  border: 1px solid #727a72;
+  padding: clamp(0.95rem, 2vw, 1.45rem);
+}
+.rb-redline__due[data-status="confirmed"] {
+  border: 0;
+  background: var(--rb-signal);
+  color: white;
+  clip-path: polygon(0 0, calc(100% - 1.1rem) 0, 100% 1.1rem, 100% 100%, 0 100%);
+}
+.rb-redline__due[data-status="confirmed"] .rb-redline__label { color: white; }
+.rb-redline__date {
+  display: block;
+  font-size: clamp(1.45rem, 3vw, 2.55rem);
+  font-weight: 760;
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+  margin-block-start: 0.35rem;
+  font-variant-numeric: tabular-nums;
+}
+.rb-redline__trace {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 2.75rem;
+  padding: 0.25rem 0;
+  background: transparent;
+  color: inherit;
+  border: 0;
+  border-radius: 0;
+  font-weight: 680;
+  text-decoration: underline;
+  text-underline-offset: 0.24em;
+  text-decoration-color: var(--rb-signal);
+  cursor: pointer;
+}
+.rb-redline__answer .rb-redline__trace { text-decoration-color: var(--rb-bright); }
+.rb-redline__quote {
+  margin: 0.65rem 0 0;
+  padding-inline-start: 0.85rem;
+  border-inline-start: 3px solid var(--rb-bright);
+  overflow-wrap: anywhere;
+}
+.rb-redline__match {
+  color: var(--rb-ink);
+  background: #f6ded5;
+  text-decoration: underline 0.15em var(--rb-signal);
+  text-underline-offset: 0.14em;
+  animation: rb-redline-ink 180ms ease-out both;
+}
+@keyframes rb-redline-ink { from { background: transparent; text-decoration-color: transparent; } }
+.rb-redline__footer {
+  margin-block-start: clamp(1rem, 3vw, 2.5rem);
+  padding-block-start: 0.8rem;
+  border-block-start: 1px solid var(--rb-line);
+  color: var(--rb-muted);
+  font-size: 0.875rem;
+}
+@media (max-width: 53rem) {
+  .rb-redline__entry, .rb-redline__desk { grid-template-columns: minmax(0, 1fr); }
+  /* Render the result first in the DOM so keyboard and mobile order agree. */
+}
+@media (min-width: 53.001rem) {
+  .rb-redline__desk[data-stage="result"] .rb-redline__answer { grid-column: 2; grid-row: 1; }
+  .rb-redline__desk[data-stage="result"] .rb-redline__source { grid-column: 1; grid-row: 1; }
+}
+@media (max-width: 34rem) {
+  .rb-redline__mast .rb-redline__wide { min-block-size: 3.5rem; }
+  .rb-redline__lead { padding: 1.125rem 1.05rem; }
+  .rb-redline__headline { font-size: clamp(2.3rem, 10vw, 3.65rem); }
+  .rb-redline__well { padding: 1.05rem; }
+  .rb-redline__date { font-size: clamp(1.65rem, 8vw, 2.35rem); }
+}
+@media (prefers-reduced-motion: reduce) { .rb-redline__match { animation: none; } }
