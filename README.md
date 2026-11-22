@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="reply-by-identity/reply-by-github.png" alt="Reply-By" width="500" />
+  <img src="reply-by-github.png" alt="Reply-By" width="500" />
 </h1>
 
 <p align="center">
