@@ -1,50 +1,37 @@
 <h1 align="center">
-  <img src="reply-by-github.png" alt="Reply-By" width="500" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="reply-by-logo-inverse.svg">
+    <source media="(prefers-color-scheme: light)" srcset="reply-by-logo.svg">
+    <img src="reply-by-github.png" alt="Reply-By" width="280">
+  </picture>
 </h1>
 
-<p align="center">
-  <strong>Find the deadline. See the line that says so.</strong><br />
-  <a href="https://reply-by.vercel.app/">reply-by.vercel.app</a>
-</p>
+<p align="center"><strong>Find the line.</strong><br>What to do, when it’s due, and where it says so.</p>
 
-A formal notice shouldn’t leave you guessing what to do or when. **Reply-By** is a mobile-first tool in development that turns an English-language notice into a plain-language action card. It’s designed for notices from any country, without assuming what local law says.
+<p align="center"><a href="https://reply-by.vercel.app/"><strong>Open Reply-By →</strong></a></p>
 
-> **Current status: interactive design prototype.** The landing page includes a clickable demo with a fictional notice. It doesn’t accept or analyze real documents yet.
+Reply-By reads formal notices written in English. It identifies **what the notice asks**, **when it’s due**, and **the exact sentence that supports the answer**. No account or app install required.
 
-## What goes on the card
+## How it works
 
-| | What Reply-By shows |
-| --- | --- |
-| **What to do** | The specific action the sender is asking for. |
-| **When it’s due** | The stated date, or a date calculated from the notice’s wording and the day you received it. If there’s not enough information, it says so. |
-| **Where it says that** | The exact sentence from the notice, so you can check the answer yourself. |
+1. **Add a notice.** Choose or drop in a PDF, PNG, or JPG/JPEG, or paste the text.
+2. **Review the text.** Check what was extracted from the PDF or read by OCR. Correct any errors before continuing.
+3. **Read the answer.** Select **Read this text**, then **See source** to check the original wording. The reader highlights it on desktop and shows it inline on a phone.
 
-## One notice, one next step
+**File limits:** 20 MB per file and 30 pages per PDF. If a PDF is a scan with no selectable text, use an image of the relevant page or paste the text.
 
-The fictional Northline Housing notice in the demo says:
+## A real result
 
-> Please send a copy of your payment receipt within 14 calendar days of receiving this letter.
+In a [Federal Register notice extending a public comment period](https://www.federalregister.gov/documents/2026/11/18/2026-23416/proposed-third-party-risk-management-guidance-extension-of-comment-period), **16 December 2026** replaces **16 November 2026**. Reply-By marks the old date as superseded, keeps public comment optional, and shows the line that sets the new deadline:
 
-If you received it on **12 November 2026**, the card says to **send a copy of the payment receipt by 26 November 2026**. The distinction matters: the letter asks for proof of payment, not another payment.
+> Comments must be received on or before December 16, 2026.
 
-## Try the prototype
+## Dates and limits
 
-1. Open the [live preview](https://reply-by.vercel.app/#android). No install or account is needed.
-2. Choose **Try the sample** and follow the prompts.
-3. On the result card, tap the date to see the sentence that supports it.
+- The reader preserves a stated time and timezone when it can confirm the deadline. If a notice clearly gives different deadlines for different steps, it can show them separately.
+- For an explicit calendar-day window counted from receipt, enter the date you received the notice to see the calculation.
+- When a deadline is unclear, Reply-By explains what it couldn’t confirm. It doesn’t guess at business-day or court rules, give legal advice, or send replies.
 
-To try it locally, open `index.html` in a browser. Open `reply-by-android.html` for the standalone Android design and motion specs.
+## Privacy
 
-## Website and Android app
-
-- **Website:** [reply-by.vercel.app](https://reply-by.vercel.app/) currently hosts the browser preview. The planned reader will let you choose a **PDF, PNG, or JPG** file or **paste the notice text** directly. Both routes will produce the same action card.
-- **Android app:** A dedicated app will be built separately from the website. The current Android prototype is a design reference, not an installable app.
-
-## What’s next
-
-- [ ] Build the notice-reading logic: find the requested action, show the due date or flag uncertainty, and cite the exact supporting sentence.
-- [ ] Make both web inputs work: paste text or pick a file. Extract text from PDFs and use OCR to read PNG and JPG images.
-- [ ] Build and test the dedicated Android app.
-- [ ] Explore camera capture on Android and editable drafts for routine replies.
-
-Reply-By is designed to explain what a notice says, not to give legal advice. It won’t send a reply for you.
+Notices are analyzed in your browser, not sent to a server for analysis. A connection may still be needed to load the app and OCR resources.
