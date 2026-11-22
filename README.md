@@ -1,41 +1,50 @@
-# Reply-By
+<h1 align="center">
+  <img src="reply-by-identity/reply-by-github.png" alt="Reply-By" width="500" />
+</h1>
 
-Turn English-language notices from any country into plain-language action cards: what the sender wants, when it's due, and the exact line that says so.
+<p align="center">
+  <strong>Find the deadline. See the line that says so.</strong><br />
+  <a href="https://reply-by.vercel.app/">reply-by.vercel.app</a>
+</p>
 
-## Run it
+A formal notice shouldn’t leave you guessing what to do or when. **Reply-By** is a mobile-first tool in development that turns an English-language notice into a plain-language action card. It’s designed for notices from any country, without assuming what local law says.
 
-```bash
-npm install
-npm run dev        # http://localhost:3000/app
-npm test           # rule + real-document checks
-npm run build      # typecheck and production bundle
-```
+> **Current status: interactive design prototype.** The landing page includes a clickable demo with a fictional notice. It doesn’t accept or analyze real documents yet.
 
-When the dev server is reached through a preview proxy, pass its hostname at start-up instead of writing it into the repo:
+## What goes on the card
 
-```bash
-PREVIEW_ALLOWED_HOST=your-preview-host.example npm run dev
-```
+| | What Reply-By shows |
+| --- | --- |
+| **What to do** | The specific action the sender is asking for. |
+| **When it’s due** | The stated date, or a date calculated from the notice’s wording and the day you received it. If there’s not enough information, it says so. |
+| **Where it says that** | The exact sentence from the notice, so you can check the answer yourself. |
 
-## The reader
+## One notice, one next step
 
-`/app` is the web reader. Both inputs feed the same analyser (`src/lib/notice/analyze.ts`):
+The fictional Northline Housing notice in the demo says:
 
-- **Upload** a PDF, PNG, JPG, or JPEG. PDF.js reads the text layer; Tesseract.js reads images. Both load only when needed, and neither leaves the browser. The extracted text is editable before it is analysed.
-- **Paste** the wording and press **Read this text**.
+> Please send a copy of your payment receipt within 14 calendar days of receiving this letter.
 
-The result names the request, the deadline, and the supporting sentence, quoted from the text currently on screen. **See source** highlights that sentence in the reviewed text, or expands it inline on a narrow screen. Dates are handled conservatively: a printed date is not a deadline, ambiguous numeric dates and business-day counts are reported as unconfirmed, and calendar days counted from receipt ask for the receipt date before doing date-only arithmetic.
+If you received it on **12 November 2026**, the card says to **send a copy of the payment receipt by 26 November 2026**. The distinction matters: the letter asks for proof of payment, not another payment.
 
-Limits: 20 MB per file, 30 PDF pages, 30 MB file cap for images before downscaling. Scanned PDFs and HEIC photos get specific guidance instead of a guess.
+## Try the prototype
 
-## Verification material
+1. Open the [live preview](https://reply-by.vercel.app/#android). No install or account is needed.
+2. Choose **Try the sample** and follow the prompts.
+3. On the result card, tap the date to see the sentence that supports it.
 
-`verification/notices/` holds genuinely public documents used to check the reader, with no personal data:
+To try it locally, open `index.html` in a browser. Open `reply-by-android.html` for the standalone Android design and motion specs.
 
-- `federal-register-comment-notice.pdf` — Federal Register notice with an explicit comment deadline.
-- `fda-warning-letter-ido-pharm.txt` — FDA warning letter that counts business days.
-- `eoir-notice-of-appeal.pdf` — EOIR appeal instructions with day counts tied to a decision date.
-- `nea-sample-notice.pdf` — Singapore NEA sample notice.
-- `federal-register-page1.png` / `federal-register-page1-scan.pdf` — a page image and an image-only PDF for the OCR and unreadable-file paths.
+## Website and Android app
 
-`scripts/pdftext.mjs` dumps a PDF's text layer for comparing what the reader extracted against the document.
+- **Website:** [reply-by.vercel.app](https://reply-by.vercel.app/) currently hosts the browser preview. The planned reader will let you choose a **PDF, PNG, or JPG** file or **paste the notice text** directly. Both routes will produce the same action card.
+- **Android app:** A dedicated app will be built separately from the website. The current Android prototype is a design reference, not an installable app.
+
+## What’s next
+
+- [ ] Build the notice-reading logic: find the requested action, show the due date or flag uncertainty, and cite the exact supporting sentence.
+- [ ] Make both web inputs work: paste text or pick a file. Extract text from PDFs and use OCR to read PNG and JPG images.
+- [ ] Build and test the dedicated Android app.
+- [ ] Explore camera capture on Android and editable drafts for routine replies.
+
+Reply-By is designed to explain what a notice says, not to give legal advice. It won’t send a reply for you.
