@@ -1,0 +1,606 @@
+74279 Federal Register / Vol. 91, No. 221 / Wednesday, November 18, 2026 / Notices 
+Instructions: All submissions must
+include the Agency name and docket
+number. Note that all comments
+received will be posted without change
+to https://www.regulations.gov, 
+including any personal information
+provided. Please see the Privacy Act
+heading below. 
+Docket: For access to the docket to
+read background documents or
+comments received, go to https://
+www.regulations.gov, and follow the
+online instructions for accessing the
+docket, or go to the street address listed
+above. 
+Privacy Act: In accordance with 5
+U.S.C. 553(c), DOT solicits comments
+from the public to better inform its
+rulemaking process. DOT posts these
+comments, without edit, including any
+personal information the commenter
+provides, to https://
+www.regulations.gov, as described in
+the system of records notice (DOT/ALL–
+14 FDMS), which can be reviewed at 
+www.dot.gov/privacy. 
+FOR FURTHER INFORMATION CONTACT : 
+Allison Fischman, Bureau of
+Transportation Statistics, Office of the
+Assistant Secretary for Research and
+Technology, USDOT, allison.fischman@
+dot.gov. 
+SUPPLEMENTARY INFORMATION : 
+Title: Confidential Close Call Transit
+Data. 
+OMB Control Number: 2138–0044. 
+Type of Review: Renewal of
+information collection. 
+Respondents: WMATA employees. 
+Estimated Number of Respondents: 
+150. 
+Estimated Time per Response: 60
+minutes. 
+Frequency: Annual. 
+Total Annual Burden Hours: 150
+hours. 
+Abstract: The Confidential Close Call
+Program for Transit is a collaborative
+program between BTS, WMATA, the
+Amalgamated Transit Union (ATU)
+Local 689, the International
+Brotherhood of Teamsters (IBT) Local
+922, and the Office & Professional
+Employees International Union (OPEIU)
+Local 2. The program provides a
+confidential platform to facilitate the
+voluntary reporting of close call events
+without fear of discipline. The program
+was established in 2013 for rail
+employees and expanded to include bus
+employees in 2016.
+Collecting data on the nation’s
+transportation system is an important
+component of BTS’ mission and
+responsibility to the transportation
+community as stated in its authorizing
+statute (49 U.S.C. 6302). BTS, WMATA,
+and the labor organizations that
+represent WMATA employees share a
+common interest in promoting transit
+safety based on timely, accurate, and
+relevant data. BTS, a principal statistical
+agency within the U.S. Department of
+Transportation, serves as the
+independent third party for the program
+to collect, analyze, and maintain
+confidential close call data. Under the
+program, a close call is defined as any
+situation or circumstance that has the
+potential for safety consequences but
+did not result in an adverse safety event.
+Knowledge about a close call presents
+an opportunity to address unsafe work
+conditions and practices, prevent
+accidents, contribute to decision-
+making, and improve overall safety in
+the workplace.
+BTS collects close call reports
+submitted by WMATA employees,
+conducts employee interviews, develops
+and maintains an analytical database
+containing reported data and other
+pertinent information, and provides
+statistical analysis to WMATA. Data
+shared with BTS by WMATA employees
+is treated confidentially and protected
+by BTS under the Confidential
+Information Protection and Statistical
+Efficiency Act of 2018 (CIPSEA),
+codified as amended at 44 U.S.C. 3561–
+3583. Only statistical and non-sensitive
+information will be made available
+through publications.
+Voluntary reporting of close calls to a
+confidential system provides a tool to
+identify and correct weaknesses within
+WMATA and prevents accidents. Close
+call reporting fosters a voluntary,
+cooperative, non-punitive environment
+to communicate safety concerns.
+Through the analysis of the data that is
+reported, WMATA receives information
+about factors that contribute to unsafe
+events, which becomes the catalyst to
+develop new training programs and
+identify root causes of adverse events.
+The database also provides valuable
+information regarding precursors to
+safety risks and contributes to research
+and development of intervention
+programs aimed at averting accidents
+and fatalities.
+Employees involved in reporting a
+close call incident are asked to fill out
+a report and participate in a brief,
+confidential interview. Employees
+submit the report electronically to BTS.
+Reporting employees will be asked to
+provide information such as: (1) name
+and contact information; (2) time and
+location of the event; (3) a short
+description of the event; (4) contributing
+factors to the close call; and (5) any
+other information that might be useful
+in determining a root cause for such
+events. 
+Data Confidentiality Provisions: Data
+collected under the Confidential Close
+Call Program are protected under
+CIPSEA. In accordance with CIPSEA,
+these data will be used exclusively for
+statistical purposes and will not be
+disclosed in identifiable form except
+with the informed consent of the
+respondent. 
+Annual Burden Discussion: It is
+estimated that the time to complete a
+close call report and participate in a
+brief confidential interview will be no
+than 60 minutes for a maximum total
+burden of 150 hours (150 reports * 60
+minutes/60 = 150 hours). Reports are
+submitted when there is a qualifying
+event, i.e., when a close call occurs. 
+Public Comments Invited: You are
+asked to comment on any aspect of this
+information collection, including: (1)
+whether the proposed collection is
+necessary for the performance of BTS’s
+functions; (2) the accuracy of the
+estimated burden; (3) ways for BTS to
+enhance the quality, usefulness, and
+clarity of the collected information; and
+(4) ways that the burden could be
+minimized without reducing the quality
+of the collected information. Comments
+received after the comment closing date
+will be included in the docket and will
+be considered to the extent practicable. 
+Allison Fischman, 
+Statistician, Bureau of Transportation
+Statistics, U.S. Department of Transportation. 
+[FR Doc. 2026–23403 Filed 11–17–26; 8:45 am] 
+BILLING CODE 4910–9X–P
+DEPARTMENT OF THE TREASURY
+Office of the Comptroller of the
+Currency
+[Docket ID OCC–2026–0793]
+RIN 1557–ZA18
+FEDERAL RESERVE SYSTEM
+[Docket No. OP–1881]
+FEDERAL DEPOSIT INSURANCE
+CORPORATION
+RIN 3064–ZA58
+NATIONAL CREDIT UNION
+ADMINISTRATION
+[Docket No. NCUA–2026–1684]
+RIN 3133–ZA54
+Proposed Third-Party Risk
+Management Guidance; Extension of
+Comment Period
+AGENCY : The Office of the Comptroller
+of the Currency (OCC), Treasury, the
+Board of Governors of the Federal 
+VerDate Sep<11>2014 18:07 Nov 17, 2026 Jkt 271001 PO 00000 Frm 00134 Fmt 4703 Sfmt 4703 E:\FR\FM\18NON1.SGM 18NON1
+khammond on DSK9W7S144PROD with NOTICE
+
+74280 Federal Register / Vol. 91, No. 221 / Wednesday, November 18, 2026 / Notices
+Reserve System (Board), the Federal
+Deposit Insurance Corporation (FDIC),
+and the National Credit Union
+Administration (NCUA). 
+ACTION : Proposed interagency guidance
+and request for comment; extension of
+comment period. 
+SUMMARY : On September 15, 2026, the
+OCC, Board, FDIC, and NCUA
+(collectively, the agencies) published in
+the Federal Register a proposed
+interagency guidance and request for
+comment on third-party risk
+management. The proposed guidance
+would reflect the agencies’ supervisory
+experience and lessons learned through
+examining banking organizations’ third-
+party risk management practices and
+would discuss the potential benefits that
+may accrue when a banking
+organization aligns its third-party risk
+management practices in relation to the
+reasonably assessed risk levels specific
+to each of its third-party relationships,
+among other things. Public comments
+were requested by November 16, 2026.
+The agencies have determined that an
+extension of the comment period until
+December 16, 2026, is appropriate. 
+DATES : The comment period for the
+notice published on September 15, 2026
+(91 FR 58536) is extended. Comments
+must be received on or before December
+16, 2026. 
+ADDRESSES : 
+OCC: Commenters are encouraged to
+submit comments through the Federal
+eRulemaking Portal. Please use the title
+‘‘Third-Party Risk Management
+Guidance’’ to facilitate the organization
+and distribution of the comments. You
+may submit comments by any of the
+following methods: 
+• Federal eRulemaking Portal—
+Regulations.gov: 
+Go to https://regulations.gov/ . Enter
+Docket ID ‘‘OCC–2026–0793’’ in the
+search box and click ‘‘Search.’’ Public
+comments can be submitted via the
+‘‘Comment’’ box below the displayed
+document information or by clicking on
+the document title and then clicking the
+‘‘Comment’’ box on the top-left side of
+the screen. For help with submitting
+effective comments, please click on
+‘‘Commenter’s Checklist.’’ For
+assistance with the Regulations.gov site,
+please call 1–866–498–2945 (toll free)
+Monday–Friday, 9 a.m.–5 p.m. ET, or
+email regulationshelpdesk@gsa.gov . 
+• Mail: Chief Counsel’s Office,
+Attention: Comment Processing, Office
+of the Comptroller of the Currency, 400
+7th Street SW, Suite 1E–216,
+Washington, DC 20219. 
+• Hand Delivery/Courier: 400 7th
+Street SW, Suite 1E–216, Washington,
+DC 20219. 
+Instructions: You must include
+‘‘OCC’’ as the agency name and Docket
+ID ‘‘OCC–2026–0793’’ in your comment.
+In general, the OCC will enter all
+comments received into the docket and
+publish the comments on the 
+Regulations.gov website without
+change, including any business or
+personal information provided such as
+name and address information, email
+addresses, or phone numbers.
+Comments received, including
+attachments and other supporting
+materials, are part of the public record
+and subject to public disclosure. Do not
+include any information in your
+comment or supporting materials that
+you consider confidential or
+inappropriate for public disclosure.
+You may review comments and other
+related materials that pertain to this
+action by the following method: 
+• Viewing Comments Electronically—
+Regulations.gov: 
+Go to https://regulations.gov/ . Enter
+Docket ID ‘‘OCC–2026–0793’’ in the
+search box and click ‘‘Search.’’ Click on
+the ‘‘Dockets’’ tab and then the
+document’s title. After clicking the
+document’s title, click the ‘‘Browse All
+Comments’’ tab. Comments can be
+viewed and filtered by clicking on the
+‘‘Sort By’’ drop-down on the right side
+of the screen or the ‘‘Refine Comments
+Results’’ options on the left side of the
+screen. Supporting materials can be
+viewed by clicking on the ‘‘Browse
+Documents’’ tab. Click on the ‘‘Sort By’’
+drop-down on the right side of the
+screen or the ‘‘Refine Results’’ options
+on the left side of the screen checking
+the ‘‘Supporting & Related Material’’
+checkbox. For assistance with the 
+Regulations.gov site, please call 1–866–
+498–2945 (toll free) Monday–Friday, 9
+a.m.–5 p.m. ET, or email 
+regulationshelpdesk@gsa.gov .
+The docket may be viewed after the
+close of the comment period in the same
+manner as during the comment period. 
+Board: You may submit comments,
+identified by Docket No. OP–1881, by
+any of the following methods: 
+• Agency Website: https://
+www.federalreserve.gov/apps/
+proposals/ . Follow the instructions for
+submitting comments, including
+attachments. Preferred Method . 
+• Mail: Benjamin W. McDonough,
+Secretary, Board of Governors of the
+Federal Reserve System, 20th Street and
+Constitution Avenue NW, Washington,
+DC 20551. 
+• Hand Delivery/Courier: Same as
+mailing address. 
+• Other Means: publiccomments@
+frb.gov . You must include docket
+number in the subject line of the
+message.
+Comments received are subject to
+public disclosure. In general, comments
+received will be made available on the
+Board’s website at https://
+www.federalreserve.gov/apps/
+proposals/ without change and will not
+be modified to remove personal or
+business information including
+confidential, contact, or other
+identifying information. Comments
+should not include any information
+such as confidential information that
+would be not appropriate for public
+disclosure. Public comments may also
+be viewed electronically or in person in
+Room M–4365A, 2001 C St. NW,
+Washington, DC 20551, between 9 a.m.
+and 5 p.m. during Federal business
+weekdays. 
+FDIC: You may submit comments to
+the FDIC, identified by ZRIN 3064–
+ZA58, by any of the following methods: 
+• Agency Website: https://
+www.fdic.gov/federal-register-
+publications . Follow instructions for
+submitting comments on the FDIC’s
+website. 
+• Email: comments@FDIC.gov .
+Include ZRIN 3064–ZA58 in the subject
+line of the message. 
+• Mail: Jennifer M. Jones, Deputy
+Executive Secretary, Attention:
+Comments—ZRIN 3064–ZA58, Federal
+Deposit Insurance Corporation, 550 17th
+Street NW, Washington, DC 20429. 
+• Hand Delivery/Courier: Comments
+may be hand-delivered to the guard
+station at the rear of the 550 17th Street
+NW building (located on F Street NW)
+on business days between 7 a.m. and 5
+p.m. 
+• Public Inspection: Comments
+received, including any personal
+information provided, may be posted
+without change to https://www.fdic.gov/
+federal-register-publications .
+Commenters should submit only
+information they wish to make available
+publicly. The FDIC may review, redact,
+or refrain from posting all or any portion
+of any comment that it may deem to be
+inappropriate for publication, such as
+irrelevant or obscene material. The FDIC
+may post only a single representative
+example of identical or substantially
+identical comments, and in such cases
+will generally identify the number of
+identical or substantially identical
+comments represented by the posted
+example. All comments that have been
+redacted, as well as those that have not
+been posted, that contain comments on
+the merits of this notice will be retained
+in the public comment file and will be
+considered as required under all
+applicable laws. All comments may be
+accessible under the Freedom of
+Information Act. 
+VerDate Sep<11>2014 18:07 Nov 17, 2026 Jkt 271001 PO 00000 Frm 00135 Fmt 4703 Sfmt 4703 E:\FR\FM\18NON1.SGM 18NON1
+khammond on DSK9W7S144PROD with NOTICE
+
+74281 Federal Register / Vol. 91, No. 221 / Wednesday, November 18, 2026 / Notices
+1 For a description of the banking organizations
+supervised by each agency, refer to the definition
+of ‘‘appropriate Federal banking agency’’ in section
+3(q) of the Federal Deposit Insurance Act (12 U.S.C.
+1813(q)). For purposes of the proposed guidance,
+banking organizations also include ‘‘insured credit
+unions’’ as defined in the Federal Credit Union Act
+(12 U.S.C. 1752(7)). Use of the proposed guidance
+may also be relevant to any other entity supervised
+by the agencies. 
+NCUA: Comments may be submitted
+in one of the following ways. (Please
+send comments by one method only): 
+• Federal eRulemaking Portal:
+https://www.regulations.gov. The docket
+number for this proposed guidance is
+NCUA–2026–1684. Follow the ‘‘Submit
+a comment’’ instructions. If you are
+reading this document on 
+federalregister.gov, you may use the
+green ‘‘SUBMIT A PUBLIC COMMENT’’
+button beneath this rulemaking’s title to
+submit a comment to the regulations.gov 
+docket. A plain language summary of
+the proposed guidance is also available
+on the docket website. 
+• Mail: Address to Melane Conyers-
+Ausbrooks, Secretary of the Board,
+National Credit Union Administration,
+1775 Duke Street, Alexandria, Virginia
+22314–3428. 
+• Hand Delivery/Courier: Same as
+mailing address. Mailed and hand-
+delivered comments must be received
+by the close of the comment period. 
+Public Inspection: Please follow the
+search instructions on https://
+www.regulations.gov to view the public
+comments. Do not include any
+personally identifiable information
+(such as name, address, or other contact
+information) or confidential business
+information that you do not want
+publicly disclosed. All comments are
+public records; they are publicly
+displayed exactly as received and will
+not be deleted, modified, or redacted.
+Comments may be submitted
+anonymously. If you are unable to
+access public comments on the internet,
+you may contact the NCUA for
+alternative access by calling (703) 518–
+6540 or emailing OGCMail@ncua.gov . 
+FOR FURTHER INFORMATION CONTACT : 
+OCC: Graham Bannon, Counsel, Amy
+Gopinathan, Counsel, Chief Counsel’s
+Office, 202–649–5490; Office of the
+Comptroller of the Currency, 400 7th
+Street, SW, Washington, DC 20219. If
+you are deaf, hard of hearing, or have a
+speech disability, please dial 7–1–1 to
+access telecommunications relay
+services. 
+Board: Juan Climent, Deputy
+Associate Director, (202) 460–2180, Jeff
+Ernst, Manager, (202) 369–9439, Brock
+Kannan, Manager, (202) 924–0665,
+Allison Boller, Sr. Financial Institution
+Policy Analyst II, (202) 253–4686,
+Division of Supervision and Regulation;
+or Claudia Von Pervieux, Special
+Counsel, (202) 469–1020, Benjamin
+Nuyens, Senior Counsel, (202) 909–
+7574, Legal Division; Board of
+Governors of the Federal Reserve
+System, 20th Street and Constitution
+Avenue NW, Washington, DC 20551. 
+FDIC: Division of Risk Management
+Supervision: Sumaya Muraywid,
+Section Chief, (202) 898–3904; Division
+of Depositor and Consumer Protection:
+Monika Jansen, Senior Policy Analyst,
+(202) 898–6781; Legal Division: Kate
+Marks, Senior Counsel, (202) 898–3896. 
+NCUA: Office of Examination and
+Insurance: Simon Hermann, Senior
+Credit Specialist, shermann@ncua.gov 
+or (703) 518–6360; Office of General
+Counsel: Ian Marenna, Associate
+General Counsel for Regulations and
+Legislation, imarenna@ncua.gov or
+(703) 518–6540; National Credit Union
+Administration, 1775 Duke Street,
+Alexandria, Virginia 22314. 
+SUPPLEMENTARY INFORMATION : On
+September 15, 2026, the OCC, Board,
+FDIC, and NCUA (collectively, the
+agencies) published in the Federal
+Register a proposed interagency
+guidance and request for comment on
+third-party risk management. The
+proposed guidance would reflect the
+agencies’ supervisory experience and
+lessons learned through examining
+banking organizations’ third-party risk
+management practices and would
+discuss the potential benefits that may
+accrue when a banking organization
+aligns its third-party risk management
+practices in relation to the reasonably
+assessed risk levels specific to each of
+its third-party relationships, among
+other things. 1 The proposed guidance
+stated that the comment period would
+close on November 16, 2026. The
+agencies have received a request to
+extend the comment period. An
+extension of the comment period will
+provide additional opportunity for the
+public to consider the proposal and
+prepare comments. Therefore, the
+agencies are extending the end of the
+comment period for the proposal from
+November 16, 2026, to December 16,
+2026. 
+Jonathan V. Gould, 
+Comptroller of the Currency. 
+By order of the Board of Governors of the
+Federal Reserve System, acting through the
+Secretary of the Board under delegated
+authority. 
+Benjamin W. McDonough, 
+Secretary of the Board. 
+Federal Deposit Insurance Corporation.
+Dated at Washington, DC, on November 12,
+2026. 
+Jennifer M. Jones, 
+Deputy Executive Secretary. 
+By the National Credit Union
+Administration Board on November 12, 2026. 
+Melane Conyers-Ausbrooks, 
+Secretary of the Board. 
+[FR Doc. 2026–23416 Filed 11–17–26; 8:45 am] 
+BILLING CODE 4810–33–P; 6210–01–P; 6714–01–P;
+7535–01–P
+DEPARTMENT OF THE TREASURY
+Office of Foreign Assets Control
+Notice of OFAC Sanctions Action
+AGENCY : Office of Foreign Assets
+Control, Treasury. 
+ACTION : Notice. 
+SUMMARY : The U.S. Department of the
+Treasury’s Office of Foreign Assets
+Control (OFAC) is publishing the names
+of one or more persons that have been
+placed on OFAC’s Specially Designated
+Nationals and Blocked Persons List
+(SDN List) based on OFAC’s
+determination that one or more
+applicable legal criteria were satisfied.
+All property and interests in property
+subject to U.S. jurisdiction of these
+persons are blocked, and U.S. persons
+are generally prohibited from engaging
+in transactions with them. 
+DATES : This action was issued on
+November 13, 2026. See Supplementary
+Information for relevant dates. 
+FOR FURTHER INFORMATION CONTACT : 
+OFAC: Associate Director for Global
+Targeting, 202–622–2420; Assistant
+Director for Sanctions Compliance, 202–
+622–2490; or https://ofac.treasury.gov/
+contact-ofac. 
+SUPPLEMENTARY INFORMATION : 
+Electronic Availability 
+The SDN List and additional
+information concerning OFAC sanctions
+programs are available on OFAC’s
+website: https://ofac.treasury.gov. 
+Notice of OFAC Actions 
+On November 13, 2026, OFAC
+determined that one or more persons
+identified below meet one or more of
+the criteria for the imposition of
+sanctions set forth in section 1(a)–(c) of
+Executive Order (E.O.) 14059 of
+December 15, 2021, ‘‘Imposing
+Sanctions on Foreign Persons Involved
+in the Global Illicit Drug Trade,’’ 86 FR
+71549. OFAC has selected to impose
+blocking sanctions pursuant to section
+2(a)(i) of E.O. 14059 on the persons
+identified below.
+OFAC further determined that one or
+more persons identified below meet one 
+VerDate Sep<11>2014 18:07 Nov 17, 2026 Jkt 271001 PO 00000 Frm 00136 Fmt 4703 Sfmt 4703 E:\FR\FM\18NON1.SGM 18NON1
+khammond on DSK9W7S144PROD with NOTICE
